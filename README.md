@@ -52,5 +52,5 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is has no licensed.
+This project is  not licensed.
 
