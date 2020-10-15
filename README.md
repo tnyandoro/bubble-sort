@@ -33,9 +33,9 @@ $ git clone
 
 👤 **Author2**
 
-- GitHub: [@Tendai Nyandoro](https://github.com/tnyandoro)
-- Twitter: [@tendai28](https://twitter.com/tendai28)
-- LinkedIn: [Tendai Nyandoro](https://www.linkedin.com/in/tendai-nyandoro-a8060826/)
+* Github:[@Lichapa](https://github.com/Lichapa/)
+* Twitter:[@LichapaMphatso](https://twitter.com/LichapaMphatso)
+* LinkedIn:[@Mphatso Lichapa](https://www.linkedin.com/in/mphatsolichapa)
 
 
 
