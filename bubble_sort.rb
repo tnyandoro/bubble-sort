@@ -1,6 +1,6 @@
 class Array
   def bubble_sort(arr)
-    n = arr.length
+   n = arr.length
 
     loop do
       swapped = false
