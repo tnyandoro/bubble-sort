@@ -12,7 +12,7 @@ def bubble_sort (arr)
 
        break if not swapped
      end
-  end  
+  end
 end
 
 
