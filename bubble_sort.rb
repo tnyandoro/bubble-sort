@@ -5,8 +5,8 @@ def bubble_sort(arr)
     swapped = false
 
     (n - 1).times do |i|
-      if arr [i] > arr[i + 1]
-        arr[i], arr[i + 1] = arr[i + 1], arr[i]
+      if n[i] > n[i + 1]
+        n[i], n[i + 1] = n[i + 1], n[i]
         swapped = true
       end
     end
@@ -14,7 +14,7 @@ def bubble_sort(arr)
     break unless swapped
   end
 
-  arr
+  n
 end
 
 p bubble_sort([4, 3, 78, 2, 0, 2, 40, 8, 9, 5, 6])
