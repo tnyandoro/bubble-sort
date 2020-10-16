@@ -18,9 +18,10 @@ The project has methods that takes an array as arguments and sorts them in an as
 
 To get a local copy of this repo, please run the following command in your terminal
 
+
 $ cd<folder>
 
-$ git clone 
+$ git clone [](https://github.com/tnyandoro/bubble-sort/tree/feature/bubble-sort_app)
 
 
 ## Authors

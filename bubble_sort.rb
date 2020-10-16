@@ -18,8 +18,20 @@ def bubble_sort(arr)
 end
 
 p bubble_sort([4, 3, 78, 2, 0, 2])
-# x = [4, 3, 78, 2, 0, 2]
 
-# p x.sort
+def bubble_sort_by(arr)
+  loop do
+    swapped = false
+    (arr.length - 1).times do |j|
+      if yield(arr[j], arr[j + 1]).positive?
+        arr[j], arr[j + 1] = arr[j + 1], arr[j]
+        swapped = true
+      end
+    end
+    break unless swapped
+  end
+   arr
+end
 
-# p bubble_sort([4, 3, 78, 2,0 , 2])
+puts bubble_sort_by(['hello', 'hi', 'hey']) { |a , b | a.length - b.length} 
+
