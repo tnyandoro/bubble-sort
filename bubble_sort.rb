@@ -30,8 +30,7 @@ def bubble_sort_by(arr)
     end
     break unless swapped
   end
-   arr
+  arr
 end
 
-puts bubble_sort_by(['hello', 'hi', 'hey']) { |a , b | a.length - b.length} 
-
+puts bubble_sort_by(%w[hello hi hey]) { |a, b| a.length - b.length }
