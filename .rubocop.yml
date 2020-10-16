@@ -49,17 +49,5 @@ Style/HashTransformKeys:
 Style/HashTransformValues:
   Enabled: false
 Layout/EndOfLine:
-  Description: 'Use Unix-style line endings.'
-  StyleGuide: '#crlf'
-  Enabled: true
-  VersionAdded: '0.49'
-  # The `native` style means that CR+LF (Carriage Return + Line Feed) is
-  # enforced on Windows, and LF is enforced on other platforms. The other styles
-  # mean LF and CR+LF, respectively.
-  EnforcedStyle: native
-  SupportedStyles:
-    - native
-    - lf
-    - crlf
-
+  EnforcedStyle:  crlf
 
