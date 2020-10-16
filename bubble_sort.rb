@@ -17,7 +17,7 @@ def bubble_sort(arr)
   arr
 end
 
-p bubble_sort([4, 3, 78, 2, 0, 2])
+p bubble_sort([4, 3, 78, 2, 0, 2, 40, 8, 9, 5, 6])
 
 def bubble_sort_by(arr)
   loop do
@@ -33,4 +33,4 @@ def bubble_sort_by(arr)
   arr
 end
 
-puts bubble_sort_by(%w[hello hi hey]) { |a, b| a.length - b.length }
+puts bubble_sort_by(%w[hello hi hey how howde well howsit]) { |a, b| a.length - b.length }
