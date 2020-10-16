@@ -1,26 +1,25 @@
-class Array
-  def bubble_sort(arr)
-   n = arr.length
+def bubble_sort(arr)
+  n = arr.length
 
-    loop do
-      swapped = false
+  loop do
+    swapped = false
 
-      (n - 1).times do |i|
-        if arr [i] > arr[i + 1]
-          arr[i], arr[i + 1] = arr[i + 1], arr[i]
-          swapped = true
-        end
+    (n - 1).times do |i|
+      if arr [i] > arr[i + 1]
+        arr[i], arr[i + 1] = arr[i + 1], arr[i]
+        swapped = true
       end
-
-      break unless swapped
     end
 
-    arr
+    break unless swapped
   end
+
+  arr
 end
 
-arr = [4, 3, 78, 2, 0, 2]
+p bubble_sort([4, 3, 78, 2, 0, 2])
+# x = [4, 3, 78, 2, 0, 2]
 
-arr.bubble_sort
+# p x.sort
 
-# bubble_sort([4,3,78,2,0,2])
+# p bubble_sort([4, 3, 78, 2,0 , 2])
