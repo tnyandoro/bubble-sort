@@ -21,7 +21,7 @@ To get a local copy of this repo, please run the following command in your termi
 
 $ cd<folder>
 
-$ git clone [](https://github.com/tnyandoro/bubble-sort/tree/feature/bubble-sort_app)
+git clone https://github.com/tnyandoro/bubble-sort/tree/feature/bubble-sort_app
 
 
 ## Authors
